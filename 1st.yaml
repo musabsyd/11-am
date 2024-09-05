@@ -1,4 +1,6 @@
 ---
 - hosts: mhost1
   gather_facts: no
-
+  vars:
+    sub: testing
+    sub2: understanding
